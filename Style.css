@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-end-end-radius: 7px;
+  height: 15vh;
+  color: rgba(2, 2, 2, 0.829);
+  background-color: rgba(180, 6, 6, 0.692);
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+#text-input {
+  width: -webkit-fill-available;
+  height: 15vh;
+  margin-top: 1rem;
+  font-size: x-large;
+}
+
+.btn {
+  background-color: rgba(180, 6, 6, 0.692);
+  border: none;
+  margin: 3rem;
+  padding: 1rem 2rem;
+  font-size: large;
+  cursor: pointer;
+  font-family: "Baloo Bhai 2", cursive;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  background-color: burlywood;
+}
